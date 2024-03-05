@@ -23,6 +23,27 @@ Requisições para a API devem seguir os padrões:
 | `400` | Erros de validação ou os campos informados não existem no sistema.|
 | `404` | Registro pesquisado não encontrado (Not found).|
 
+## Executando a API localmente
+
+### Pré requisitos
+
+> Node 16 ou superior
+
+### Instalando os pacotes
+
+Abra o terminal da sua máquina na raiz desse projeto e execute o comando abaixo:
+
+```text
+npm install
+```
+
+### Executando o projeto
+
+Para que o projeto comece a executar de forma local na url *http://localhost:3000* execute o comando abaixo na raiz do projeto
+
+```text
+node index.js
+```
 
 ## Endpoints
 
